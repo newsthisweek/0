@@ -62,9 +62,9 @@ app.post("/failure", function(req, res) {
     res.redirect("/");
 });
 
-app.listen(process.env.PORT || 3000, function() { //to deploy our server to globally with heroku
-    console.log("post is runing on port 3000");
-});
+//app.listen(process.env.PORT || 3000, function() { //to deploy our server to globally with heroku
+//  console.log("post is runing on port 3000");
+//});
 
 
 //ed649697e3ec7a0706dd293fac323926-us10   //usx=us10 int he url above
