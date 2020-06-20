@@ -62,7 +62,7 @@ app.post("/failure", function(req, res) {
     res.redirect("/");
 });
 const port = process.env.PORT || 3000;
-app.listen(port, () => {
+server.listen(port, () => {
     console.log(`Server running at port ` + port);
 });
 //app.listen(process.env.PORT || 3000, function() { //to deploy our server to globally with heroku
